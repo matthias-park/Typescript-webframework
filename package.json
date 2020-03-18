@@ -1,0 +1,24 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:db": "josn-server -w db.json",
+    "start:parcel": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthias-park/Typescript-webframework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matthias-park/Typescript-webframework/issues"
+  },
+  "homepage": "https://github.com/matthias-park/Typescript-webframework#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "typescript": "^3.8.3"
+  }
+}
